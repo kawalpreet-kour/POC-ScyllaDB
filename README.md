@@ -170,6 +170,15 @@ sudo systemctl restart scylla-server
 
 <img width="523" height="24" alt="Screenshot from 2025-08-01 15-29-33" src="https://github.com/user-attachments/assets/7ee17ea1-5a1b-4a32-89c3-f872af2bf8b2" />
 
+### Status ScyllaDB
+```bash
+sudo systemctl status scylla-server
+```
+> Shows if ScyllaDB is running after restart
+
+<img width="800" height="220" alt="Screenshot from 2025-08-01 16-43-03" src="https://github.com/user-attachments/assets/2ca6cbbe-3583-4510-9fec-0debff3f8d94" />
+
+
 ## 5. Getting Started with ScyllaDB
 
 ### Check Node Status
@@ -178,6 +187,8 @@ nodetool status
 ```
 > Shows current status of the Scylla node
 ---
+ <img width="367" height="24" alt="Screenshot from 2025-08-01 16-44-12" src="https://github.com/user-attachments/assets/4e797bd0-5cc0-48ac-83dd-e89bfe7cbec8" />
+
 
 ## Conclusion
 
